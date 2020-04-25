@@ -5,7 +5,7 @@ import Item2 from './Item2'
 
 
 
-const List = () => {
+const List2 = () => {
   const [memos, setMemos] = useState(null)
 
   useEffect(() => {
@@ -44,4 +44,4 @@ const List = () => {
   )
 }
 
-export default List
+export default List2

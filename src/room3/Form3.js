@@ -4,7 +4,8 @@ import firebase from '../config/firebase'
 
 
 
-const Form = () => {
+
+const Form3 = () => {
   const [title, setTitle] = useState('')
   const [memo, setMemo] = useState('')
   const [day, setDay] = useState('')
@@ -16,8 +17,11 @@ const Form = () => {
       memo: memo,
       title: title,
       day: day,
-      user: user
+      user: user,
     })
+    
+  
+  
 
     setTitle('')
     setMemo('')
@@ -85,4 +89,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default Form3

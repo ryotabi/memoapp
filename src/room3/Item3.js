@@ -1,6 +1,8 @@
 import React from 'react'
 
-const Item1 = ({ memo,deleteMemo }) => {
+const Item3 = ({ memo,deleteMemo }) => {{
+
+  
 
   return (
     <>
@@ -14,6 +16,6 @@ const Item1 = ({ memo,deleteMemo }) => {
       >削除</button>
     </>
   )
-}
+}}
 
-export default Item1
+export default Item3

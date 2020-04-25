@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 
 
-const List = () => {
+const List1 = () => {
   const [memos, setMemos] = useState(null)
 
   useEffect(() => {
@@ -49,4 +49,4 @@ const List = () => {
 
 // const Title = styled 'h1'
 
-export default List
+export default List1
